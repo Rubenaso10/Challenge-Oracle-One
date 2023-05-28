@@ -1,0 +1,93 @@
+
+*{
+    background: #1f2020;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+   
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left:10px;
+    width:10%
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left:180px
+}
+
+.text-area{
+    height: 400px;
+    border:none;
+    color: #e76026;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase
+}
+
+
+.mensaje{
+    height:630px;
+    background: white;
+    background-image: url("/Pictures/personaje.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border:none;
+    border-radius: 24px;
+    color:#111112;
+    margin-left: 98px;
+    margin-top:20px;
+    padding-left: 20px;
+    position:fixed;
+}
+
+.mensaje:focus{
+    outline:none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+.btn-encriptar{
+    background-color: #f3f6f9;
+    border:1px solid #0A3871;
+    border-radius: 24px;
+    color: rgb(8, 8, 8);
+    cursor:pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar{
+    background:#f5f5f5;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#080808;
+    cursor:pointer;
+    height: 67px;
+    margin-left:30px;
+    width: 328px;
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#e76026;
+    cursor:pointer;
+    height:67px;
+    margin-left:120px;
+    margin-top:565px;
+    position:absolute;
+    width: 336px;
+}
+
+.informacion {
+    color: #d5d8dc;
+    font-size:18px;
+}
